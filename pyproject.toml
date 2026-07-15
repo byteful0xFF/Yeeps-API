@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 77.0.3", "requests>=2.31.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "yeeps_0xFF"
+version = "1.0.0"
+authors = [
+  { name="Byteful (0xFF)", email="jjleon2015@icloud.com" },
+]
+description = "Unofficial Python API wrapper for Yeeps using the yeeps-proxy backend."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
