@@ -8,8 +8,8 @@ Yeeps API is an API for the hit VR game Yeeps: Hide and Seek. It is made using t
 
 ## Installation
 
-```text
-pip install yeeps
+```pip
+pip install git+https://github.com/byteful0xFF/Yeeps-API.git
 ```
 ---
 
