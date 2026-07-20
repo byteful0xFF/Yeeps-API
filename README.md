@@ -27,7 +27,7 @@ so for me, an example would be
 byteful|1234
 ```
 This is your warning to ***NEVER*** share your mobile code. It allows people to login to your account on the mobile app, and buy stuff you didn&lsquo;t need! They can also donate to community worlds, so they can donate to their own community world, **GIVING THEM YOUR MONEY!**
-The one i put here (1234) is a fake one. It is not a real code.
+The one I put here (1234) is a fake one. It is not a real code.
 
 # Logging In
 
