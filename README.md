@@ -8,6 +8,12 @@ Yeeps API is an API for the hit VR game Yeeps: Hide and Seek. It is made using t
 
 ## Installation
 Download the package, as I have not set up pip installation yet.
+What you want to do is make a folder and put the yeeps-api source code in that folder, then you want to make a script outside of the folder. Then just import yeeps like this:
+```py
+import yeeps
+from yeeps import client
+```
+and then just make the login script and stuff and you are done!
 ```text
 pip install yeeps
 ```
