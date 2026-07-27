@@ -7,7 +7,7 @@ Yeeps API is an API for the hit VR game Yeeps: Hide and Seek. It is made using t
 # Yeeps Python SDK Documentation
 
 ## Installation
-
+Download the package, as I have not set up pip installation yet.
 ```text
 pip install yeeps
 ```
