@@ -1,7 +1,10 @@
 import yeeps
 from yeeps import client
 
-api = client.API("Byteful|0000") # this is an example you needa change it so it displays your thing if you want to use it
+mobileLogin = input("What's your mobile login (metaUsername|mobileCode): ")
+mobileLoginStripped = mobileLogin.strip()
+
+api = client.API(mobileLoginStripped)
 login = api.login()
 userData = login.userData
 session = api.login()
