@@ -13,7 +13,7 @@ while True:
     try:
         auth_input = input("Enter target account credentials (Username|MobileCode): ").strip()
         if auth_input.lower() in ['exit', 'quit', '']:
-            print("Closing tracker session. Goodbye!")
+            print("Closing stats. Goodbye!")
             sys.exit()
         if "|" not in auth_input:
             print("Invalid format! Please type it exactly like: Username|MobileCode\n")
