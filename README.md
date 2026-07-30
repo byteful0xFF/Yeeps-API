@@ -1,6 +1,7 @@
 # Yeeps API
 Yeeps API is an API for the hit VR game Yeeps: Hide and Seek. It is made using the yeeps-proxy backend. It is 100% developed by **Byteful** (aka carbon612 or 0xFF). Developed fully in python, it is the first Yeeps API to be coded in python.
 
+Some example scripts are also provided by YWDS-yeeps.
 
 ---
 
