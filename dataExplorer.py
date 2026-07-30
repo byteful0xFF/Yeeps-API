@@ -2,6 +2,8 @@ import yeeps
 from yeeps import client
 import sys
 
+# This can do anything the old one can do and can show role data now, also it's all pre-programmed so you can just set it up and run it. You're welcome - YWDS-yeeps
+
 print("==========================================================")
 print("                  YEEPS CUSTOM STATS                  ")
 print("==========================================================")
