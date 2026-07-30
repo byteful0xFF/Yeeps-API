@@ -2,8 +2,11 @@ import yeeps
 from yeeps import client
 
 # script made by YWDS :) thanks
+# your welcome - YWDS
+mobileLogin = input("What's your mobile login (metaUsername|mobileCode): ")
+mobileLoginStripped = mobileLogin.strip()
 
-api = client.API("Byteful|0000")
+api = client.API(mobileLoginStripped)
 login = api.login()
 userData = login.userData
 session = api.login()
