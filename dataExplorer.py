@@ -49,31 +49,25 @@ while True:
         
         role_timestamps = player_stats.get('roleGivenTimestamps', {})
         
-        # Default fallback values for standard community accounts
         assigned_role = "Player"
         role_since_date = "N/A"
         
-        # Priority tree matching official server rank naming conventions
         role_priority = [
-            "administrator", 
-            "admin",
+            "trass",
             "moderator", 
             "jr_moderator", 
-            "designer", 
-            "super_star",       # Maps to Star Creator on display
-            "content_creator",   # Content Creator Rank
-            "star_program",      # Star Program Tier
-            "tester"             # Lab Rat Beta Team
+            "maker", 
+            "super_star",
+            "content_creator",
+            "star_program",
+            "tester"
         ]
         
         if role_timestamps:
             for known_role in role_priority:
                 if known_role in role_timestamps:
-                    # Apply custom text adjustments for official brand changes
-                    if known_role in ["administrator", "admin"]:
-                        assigned_role = "Trass"
-                    elif known_role == "super_star":
-                        assigned_role = "Star Creator"
+                    if known_role == "super_star":
+                        assigned_role = "star creator"
                     else:
                         assigned_role = known_role.replace("_", " ").title()
                         
@@ -107,7 +101,6 @@ while True:
         paintbrushes, gadgets, cosmetics, weapons_and_bombs = [], [], [], []
         music_and_audio, mobs_and_npcs, tools_and_props, blocks, leftovers = [], [], [], [], []
 
-        # Shortened matching tuples completely protect against system auto-line-wrapping bugs
         for item in unlocked_items:
             item_lower = item.lower()
             if any(x in item_lower for x in ["paintbrush", "painter", "recolorer", "materialpaintbrush"]):
