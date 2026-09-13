@@ -3,6 +3,8 @@ Yeeps API is an API for the hit VR game Yeeps: Hide and Seek. It is made using t
 
 Some example scripts are also provided by YWDS-yeeps.
 
+Note: Client cannot pull user data do to <https://yeeps-proxy.onrender.com/yeeps> not working - YWDS-yeeps
+
 ---
 
 # Yeeps Python SDK Documentation
